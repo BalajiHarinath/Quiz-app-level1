@@ -84,7 +84,7 @@
     position: absolute;
     width: 18rem;
     height: 18rem;
-    color: red;
+    color: var(--red);
     z-index: 2;
 }
 
