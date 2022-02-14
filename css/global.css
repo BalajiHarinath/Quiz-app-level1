@@ -2,7 +2,7 @@
     --primary-color : #973a99;
     --secondary-color : #faf8f8; 
     --secondary-color-light : #cfcccc1a; 
-    --tertiary-color : #b1abab;
+    --gray : #b1abab;
 
     --text-color1 : #3b3939;
     --border-color1 : #b4b1b1;
@@ -16,6 +16,7 @@
 
     --yellow : #eed70d;
     --white : #FFFF;
+    --red : #ff0000;
     --black : #0000;
 }
 
