@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CricQuiz | Home</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Simple UI Library-->
+    <link rel="stylesheet" 
+    href="https://simpleui-component-library.netlify.app/Components/simpleui.css">
+
+    <!--Custom UI Library-->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="page-container flex flex-column">
+
+        <!--Nav bar-->
+        <nav class="navbar flex">
+            <h2 class="nav-header">Cric Quiz</h2>
+            <div class="nav-login flex flex-align-center flex-gap-2">
+                <a href="./index.html" class="flex flex-column flex-justify-center flex-align-center">
+                    <span>
+                        <i class="fa fa-home fa-2x nav-icon" aria-hidden="true"></i>
+                    </span> 
+                    <span class="nav-icon-text">Home</span>
+                 </a>
+                <a href="" class="flex flex-column flex-justify-center flex-align-center">
+                   <span>
+                        <i class="fa fa-user-circle fa-2x nav-icon" aria-hidden="true"></i>
+                   </span> 
+                   <span class="nav-icon-text">Login</span>
+                </a>
+                
+            </div>
+        </nav>
+
+        <!--main-->
+        <main class="flex flex-column">
+            <section class="homepage-text-img-container flex flex-gap-2"> 
+                <div class="homepage-text flex flex-column flex-gap-1 flex-justify-center">
+                    <p class="text-2xl">Feeling bored? Lets have some fun.</p>
+                    <p class="text-2xl">Are a cricket fan? If so lets test your Cric knowledge</p>
+                    <a href="#Categories" class="home-category-btn btn-solid btn-medium">Explore Categories</a>
+                </div>
+                <div>
+                    <img class="homepage-img" src="./assets/home page images/Home-img.jpg" alt="image"/>
+                </div>
+            </section>
+
+            <section class="flex flex-column flex-justify-center flex-align-center">
+                <h3  id="Categories">Categories</h3>
+
+                <div class="flex flex-wrap m-2">
+
+                    <div class="category-item flex flex-justify-center flex-align-center" id="oneday">
+                        <div class="quiz-homepage-card flex flex-column m-2 ">
+                            <div class="quiz-homepage-card-img-container">
+                                <img class="quiz-homepage-card-img" loading="lazy" src="./assets/home page images/ODI-worldcup.jpg" alt="image"/>
+                            </div>
+                            <div class="homepage-category-textoverlay flex flex-justify-center flex-align-center font-semibold">Play Now</div>
+                            <div class="flex flex-column flex-gap-0-5 pd-1">
+                                <h5 class="font-semibold">One Day Cricket</h5>
+                                <p class="text-sm">Do you really love OneDay Cricket ? Lets check...</p>
+                                <span class="font-semibold">5 Questions</span>                               
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="category-item flex flex-justify-center flex-align-center" id="t20"> 
+                        <div class="quiz-homepage-card flex flex-column m-2 ">
+                            <div class="quiz-homepage-card-img-container">
+                                <img class="quiz-homepage-card-img" loading="lazy" src="./assets/home page images/t20-world-cup-trophy.jpg" alt="image"/>
+                            </div>
+                            <div class="homepage-category-textoverlay flex flex-justify-center flex-align-center font-semibold">Play Now</div>
+                            <div class="flex flex-column flex-gap-0-5 pd-1">
+                                <h5 class="font-semibold">T20 Cricket</h5>
+                                <p class="text-sm">Are you a T20holic ? If so this quiz is for you...</p>
+                                <span class="font-semibold">5 Questions</span>                               
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="category-item flex flex-justify-center flex-align-center" id="test">
+                        <div class="quiz-homepage-card flex flex-column m-2 ">
+                            <div class="quiz-homepage-card-img-container">
+                                <img class="quiz-homepage-card-img" loading="lazy" src="./assets/home page images/test championship trophy.jpeg" alt="image"/>
+                            </div>
+                            <div class="homepage-category-textoverlay flex flex-justify-center flex-align-center font-semibold">Play Now</div>
+                            <div class="flex flex-column flex-gap-0-5 pd-1">
+                                <h5 class="font-semibold">Test Cricket</h5>
+                                <p class="text-sm">Are you a great fan of Test Cricket ? Lets explore...</p>
+                                <span class="font-semibold">5 Questions</span>                               
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="category-item flex flex-justify-center flex-align-center" id="ipl"> 
+                        <div class="quiz-homepage-card flex flex-column m-2 ">
+                            <div class="quiz-homepage-card-img-container">
+                                <img class="quiz-homepage-card-img" loading="lazy" src="./assets/home page images/IPL Trophy.jpg" alt="image"/>
+                            </div>
+                            <div class="homepage-category-textoverlay flex flex-justify-center flex-align-center font-semibold">Play Now</div>
+                            <div class="flex flex-column flex-gap-0-5 pd-1">
+                                <h5 class="font-semibold">IPL</h5>
+                                <p class="text-sm">Play this quiz if you are an IPL fan.</p>
+                                <span class="font-semibold">5 Questions</span>                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+        </main>
+
+        <!--Footer-->
+        <footer class="footer flex flex-column flex-justify-center flex-align-center pdt-2 pdb-2">
+            <div class="footer-header text-base">Made with <span>&lt;/&gt;</span> by Balaji BH</div>
+            <ul class="flex list-style-none footer-social-icons">
+                <li><a href="https://github.com/BalajiHarinath"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/balaji_harinath"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/balaji-harinath-90a56518a"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+            </ul>
+            <div class="footer-copy">© 2022 Cric Quiz</div>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

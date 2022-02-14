@@ -4,3 +4,7 @@
 @import url("margin.css");
 @import url("padding.css");
 @import url("reset.css");
+
+html {
+    scroll-behavior: smooth;
+}

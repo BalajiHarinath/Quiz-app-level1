@@ -1,0 +1,61 @@
+.page-container {
+    height: 100vh;
+}
+
+/*Nav bar*/
+.navbar {
+    padding: 1rem 3rem;
+    border-bottom: 1px solid var(--tertiary-color);
+}
+
+.nav-header {
+    flex: 1;
+    color: var(--primary-color);
+}
+
+.nav-icon {
+    color: var(--primary-color);
+}
+
+.nav-icon-text {
+    color: var(--primary-color);
+}
+
+
+/*rules*/
+.rules-container {
+    margin: 0 auto;
+}
+
+/*Footer*/
+.footer{
+    border: 1px solid var(--tertiary-color);;
+    z-index: 1;
+}
+
+.footer-social-icons {
+	margin: 1rem auto;
+    padding-left: 0;
+}
+
+.footer-social-icons a {
+	transition: 0.2s ease;
+    color: var(--footer-social-icons);
+    margin: 1rem;
+}
+
+.footer-social-icons a:hover {
+	color: var(--primary-color);
+}
+
+.footer-header {
+	letter-spacing: 0.5px;
+}
+
+.footer-header span{
+	color: var(--primary-color);
+}
+
+.footer-copy {
+	color: var(--primary-color);
+}
