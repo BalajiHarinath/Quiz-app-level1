@@ -5,7 +5,7 @@
 /*Nav bar*/
 .navbar {
     padding: 1rem 3rem;
-    border-bottom: 1px solid var(--tertiary-color);
+    border-bottom: 1px solid var(--gray);
 }
 
 .nav-header {
@@ -91,13 +91,12 @@
 
 /*Footer*/
 .footer{
-    border: 1px solid var(--tertiary-color);;
+    border: 1px solid var(--gray);
     z-index: 1;
 }
 
 .footer-social-icons {
 	margin: 1rem auto;
-    padding-left: 0;
 }
 
 .footer-social-icons a {
