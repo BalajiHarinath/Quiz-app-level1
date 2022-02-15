@@ -23,49 +23,58 @@
 
 
 /*main*/
-.main-container {
+.result-header {
+    color: var(--primary-color);
+}
+
+.prize-img {
+    height: fit-content;
+    width: 8rem;
+    object-fit: cover;
+}
+
+.result-container {
     border: 1px solid var(--border-color);
     border-radius: 1rem;
 }
 
-input[type="radio"] {
-    display: none;
+.option-container {
+    width: 100%;
 }
 
 .option-label{
-    width: 100%;
+    width: inherit;
     padding: 0.7rem 0.5rem;
     background-color: var(--secondary-color);
     text-align: center;
-    cursor: pointer;
     border-radius: 0.5rem;
-    transition: all 0.5s ease;
 }
 
-.option-label:hover {
-    transform: translateX(5px);
-    color: var(--white);
-    background-color: var(--primary-color);
-}
-
-.question-info {
+.final-score-info{
     color: var(--primary-color-light);
 }
 
-.question-info>span {
+.final-score-info>span {
     color: var(--red);
 }
 
-.next-btn, .prev-btn {
-    box-shadow: none;   /*over riding the component libray style*/
+.correct-ans {
+    background-color: var(--green);
+    color: var(--white);
 }
 
-.next-btn:hover, .prev-btn:hover {
-    transform: scale(1);  /*over riding the component libray style*/
+.wrong-ans {
+    background-color: var(--red);
+    color: var(--white);
 }
 
-.next-btn, .prev-btn {
+.finish-btn {
+    box-shadow: none;
     height: 2rem;
+}
+
+.finish-btn:hover {
+    transform: scale(1);
 }
 
 

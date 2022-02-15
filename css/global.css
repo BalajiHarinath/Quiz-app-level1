@@ -1,5 +1,6 @@
 :root{
     --primary-color : #973a99;
+    --primary-color-light : #bd52be;
     --secondary-color : #faf8f8; 
     --secondary-color-light : #cfcccc1a; 
     --gray : #b1abab;
@@ -17,6 +18,7 @@
     --yellow : #eed70d;
     --white : #FFFF;
     --red : #ff0000;
+    --green : #0aaf0a;
     --black : #0000;
 }
 
