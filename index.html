@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CricQuiz | ODI question1</title>
+    <title>CricQuiz | Home</title>
   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -24,7 +24,7 @@
         <nav class="navbar flex">
             <h2 class="nav-header">Cric Quiz</h2>
             <div class="nav-login flex flex-align-center flex-gap-2">
-                <a href="home.html" class="flex flex-column flex-justify-center flex-align-center">
+                <a href="" class="flex flex-column flex-justify-center flex-align-center">
                     <span>
                         <i class="fa fa-home fa-2x nav-icon" aria-hidden="true"></i>
                     </span> 
@@ -41,40 +41,81 @@
         </nav>
 
         <!--main-->
-        <main class="flex flex-grow-1 flex-justify-center flex-align-center">
-            <div class="main-container flex flex-column flex-gap-2 mt-3 mb-3 pd-2"> 
-                <h4 class="flex flex-justify-center font-semibold">ODI Quiz</h4>
-                <div class="flex flex-justify-space-between"> 
-                    <p class="question-info text-sm">
-                        Question: <span>1/5</span>
-                    </p>
-                    <p class="question-info text-sm">
-                        Score: <span>10</span>
-                    </p>
+        <main class="flex flex-column">
+            <section class="homepage-text-img-container flex flex-gap-2"> 
+                <div class="homepage-text flex flex-column flex-gap-1 flex-justify-center">
+                    <p class="text-2xl font-semibold">Feeling bored? Lets have some fun. Are a cricket fan? If so lets test your Cric knowledge!!!</p>
+                    <a href="#Categories" class="home-category-btn btn-solid btn-medium">Explore Categories</a>
                 </div>
-                <p class="font-semibold">Which team won the first ever World Cup?</p>
-                <div class="option-container flex flex-column flex-align-center flex-gap-1">
+                <div>
+                    <img class="homepage-img" src="./assets/home page images/Home-img.jpg" alt="image"/>
+                </div>
+            </section>
 
-                    <label for="option1" class="option-label">India</label>
-                    <input type="radio" id="option1" class="option"/>
+            <section class="flex flex-column flex-justify-center flex-align-center">
+                <h3  id="Categories">Categories</h3>
 
-                    <label for="option2" class="option-label">Australia</label>
-                    <input type="radio" id="option2" class="option"/>
+                <div class="flex flex-wrap m-2">
 
-                    <label for="option3" class="option-label">West Indies</label>
-                    <input type="radio" id="option3" class="option"/>
+                    <div class="category-item flex flex-justify-center flex-align-center" id="oneday">
+                        <div class="quiz-homepage-card flex flex-column m-2 ">
+                            <div class="quiz-homepage-card-img-container">
+                                <img class="quiz-homepage-card-img" loading="lazy" src="./assets/home page images/ODI-worldcup.jpg" alt="ODI-trophy"/>
+                            </div>
+                            <div class="homepage-category-textoverlay flex flex-justify-center flex-align-center font-semibold">Play Now</div>
+                            <div class="flex flex-column flex-gap-0-5 pd-1">
+                                <h5 class="font-semibold">One Day Cricket</h5>
+                                <p class="text-sm">Do you really love OneDay Cricket ? Lets check...</p>
+                                <span class="font-semibold">5 Questions</span>                               
+                            </div>
+                        </div>
+                    </div>
 
-                    <label for="option4" class="option-label">England</label>
-                    <input type="radio" id="option4" class="option"/>
+                    <div class="category-item flex flex-justify-center flex-align-center" id="t20"> 
+                        <div class="quiz-homepage-card flex flex-column m-2 ">
+                            <div class="quiz-homepage-card-img-container">
+                                <img class="quiz-homepage-card-img" loading="lazy" src="./assets/home page images/t20-world-cup-trophy.jpg" alt="t20-trophy"/>
+                            </div>
+                            <div class="homepage-category-textoverlay flex flex-justify-center flex-align-center font-semibold">Play Now</div>
+                            <div class="flex flex-column flex-gap-0-5 pd-1">
+                                <h5 class="font-semibold">T20 Cricket</h5>
+                                <p class="text-sm">Are you a T20holic ? If so this quiz is for you...</p>
+                                <span class="font-semibold">5 Questions</span>                               
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="category-item flex flex-justify-center flex-align-center" id="test">
+                        <div class="quiz-homepage-card flex flex-column m-2 ">
+                            <div class="quiz-homepage-card-img-container">
+                                <img class="quiz-homepage-card-img" loading="lazy" src="./assets/home page images/test championship trophy.jpeg" alt="test-trophy"/>
+                            </div>
+                            <div class="homepage-category-textoverlay flex flex-justify-center flex-align-center font-semibold">Play Now</div>
+                            <div class="flex flex-column flex-gap-0-5 pd-1">
+                                <h5 class="font-semibold">Test Cricket</h5>
+                                <p class="text-sm">Are you a great fan of Test Cricket ? Lets explore...</p>
+                                <span class="font-semibold">5 Questions</span>                               
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="category-item flex flex-justify-center flex-align-center" id="ipl"> 
+                        <div class="quiz-homepage-card flex flex-column m-2 ">
+                            <div class="quiz-homepage-card-img-container">
+                                <img class="quiz-homepage-card-img" loading="lazy" src="./assets/home page images/IPL Trophy.jpg" alt="iipl-trophy"/>
+                            </div>
+                            <div class="homepage-category-textoverlay flex flex-justify-center flex-align-center font-semibold">Play Now</div>
+                            <div class="flex flex-column flex-gap-0-5 pd-1">
+                                <h5 class="font-semibold">IPL</h5>
+                                <p class="text-sm">Play this quiz if you are an IPL fan.</p>
+                                <span class="font-semibold">5 Questions</span>                               
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="flex flex-justify-space-between">
-                    <a href="" class="next-btn btn-solid btn-medium flex flex-justify-center flex-align-center">Previous</a>
-                    <a href="result.html" class="prev-btn btn-solid btn-medium flex flex-justify-center flex-align-center">Next</a>
-                </div>
 
-            </div>
-
+            </section>
 
         </main>
 

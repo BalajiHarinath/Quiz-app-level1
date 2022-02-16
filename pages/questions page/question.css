@@ -1,0 +1,102 @@
+.page-container {
+    height: 100vh;
+}
+
+/*Nav bar*/
+.navbar {
+    padding: 1rem 3rem;
+    border-bottom: 1px solid var(--gray);
+}
+
+.nav-header {
+    flex: 1;
+    color: var(--primary-color);
+}
+
+.nav-icon {
+    color: var(--primary-color);
+}
+
+.nav-icon-text {
+    color: var(--primary-color);
+}
+
+
+/*main*/
+.main-container {
+    border: 1px solid var(--border-color);
+    border-radius: 1rem;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.option-label{
+    width: 100%;
+    padding: 0.7rem 0.5rem;
+    background-color: var(--secondary-color);
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: all 0.5s ease;
+}
+
+.option-label:hover {
+    transform: translateX(5px);
+    color: var(--white);
+    background-color: var(--primary-color);
+}
+
+.question-info {
+    color: var(--primary-color-light);
+}
+
+.question-info>span {
+    color: var(--red);
+}
+
+.next-btn, .prev-btn {
+    box-shadow: none;   /*over riding the component libray style*/
+}
+
+.next-btn:hover, .prev-btn:hover {
+    transform: scale(1);  /*over riding the component libray style*/
+}
+
+.next-btn, .prev-btn {
+    height: 2rem;
+}
+
+
+/*Footer*/
+.footer{
+    border: 1px solid var(--gray);
+    z-index: 1;
+}
+
+.footer-social-icons {
+	margin: 1rem auto;
+}
+
+.footer-social-icons a {
+	transition: 0.2s ease;
+    color: var(--footer-social-icons);
+    margin: 1rem;
+}
+
+.footer-social-icons a:hover {
+	color: var(--primary-color);
+}
+
+.footer-header {
+	letter-spacing: 0.5px;
+}
+
+.footer-header span{
+	color: var(--primary-color);
+}
+
+.footer-copy {
+	color: var(--primary-color);
+}
